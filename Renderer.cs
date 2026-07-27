@@ -3,8 +3,10 @@ public class Renderer(Mesh mesh) {
     
     int speed = 33; //30 frames per second ish
     double thetaRotation1 = 0.03; //two standard rotation variables
-    double thetaRotation2 = -0.02;
-    double thetaRotation3 = -0.04;
+    double thetaRotation2 = -0.03;
+    double thetaRotation3 = 0.03;
+
+    private string activeSymbol = "*";
 
     string[] shades = [".", ":", "#", "@"];
 
@@ -16,7 +18,7 @@ public class Renderer(Mesh mesh) {
             DrawPoint(vector);
             vector.Z -= mesh.MeshCenter;
             ApplyYAxisRotation(vector, thetaRotation1);
-            ApplyXAxisRotation(vector, thetaRotation2);
+            //ApplyXAxisRotation(vector, thetaRotation2);
             ApplyZAxisRotation(vector, thetaRotation3);
             vector.Z += mesh.MeshCenter;
         }
@@ -39,7 +41,7 @@ public class Renderer(Mesh mesh) {
         int consoleY = Math.Clamp((int)Math.Round(consoleYFloat), 0, Console.WindowHeight - 1);
 
         Console.SetCursorPosition(consoleX, consoleY);
-        Console.WriteLine("*");
+        Console.WriteLine(activeSymbol);
     }
 
     private void ApplyYAxisRotation(Vector3 vector, double theta)
