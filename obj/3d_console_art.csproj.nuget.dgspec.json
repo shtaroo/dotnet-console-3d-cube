@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shtaro\\OneDrive\\Dokumenter\\random_projects\\3d_console_art\\3d_console_art.csproj": {}
+    "C:\\Users\\shtaro\\Documents\\GitHub\\dotnet-console-3d-cube\\3d_console_art.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shtaro\\OneDrive\\Dokumenter\\random_projects\\3d_console_art\\3d_console_art.csproj": {
+    "C:\\Users\\shtaro\\Documents\\GitHub\\dotnet-console-3d-cube\\3d_console_art.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shtaro\\OneDrive\\Dokumenter\\random_projects\\3d_console_art\\3d_console_art.csproj",
+        "projectUniqueName": "C:\\Users\\shtaro\\Documents\\GitHub\\dotnet-console-3d-cube\\3d_console_art.csproj",
         "projectName": "3d_console_art",
-        "projectPath": "C:\\Users\\shtaro\\OneDrive\\Dokumenter\\random_projects\\3d_console_art\\3d_console_art.csproj",
+        "projectPath": "C:\\Users\\shtaro\\Documents\\GitHub\\dotnet-console-3d-cube\\3d_console_art.csproj",
         "packagesPath": "C:\\Users\\shtaro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shtaro\\OneDrive\\Dokumenter\\random_projects\\3d_console_art\\obj\\",
+        "outputPath": "C:\\Users\\shtaro\\Documents\\GitHub\\dotnet-console-3d-cube\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shtaro\\AppData\\Roaming\\NuGet\\NuGet.Config",
